@@ -1,0 +1,4 @@
+complex_time() {
+  local time=$(date +"%d|%m|%y <$> %H:%M:%S")
+  echo "$time"
+}
